@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E66786F6C7A415A086E5146 /* Pods_Wakeari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03DB1A7A130FEEF32ACCCC5 /* Pods_Wakeari.framework */; };
 		6457680425504FF600A51E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457680325504FF600A51E56 /* AppDelegate.swift */; };
 		6457680625504FF600A51E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457680525504FF600A51E56 /* SceneDelegate.swift */; };
 		6457680825504FF600A51E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457680725504FF600A51E56 /* ViewController.swift */; };
 		6457680B25504FF600A51E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6457680925504FF600A51E56 /* Main.storyboard */; };
 		6457680D25504FF800A51E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6457680C25504FF800A51E56 /* Assets.xcassets */; };
 		6457681025504FF800A51E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6457680E25504FF800A51E56 /* LaunchScreen.storyboard */; };
+		645768182550527C00A51E56 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645768172550527C00A51E56 /* TableViewController1.swift */; };
+		6457681A255155FA00A51E56 /* ResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64576819255155FA00A51E56 /* ResultList.swift */; };
+		6457681D255187F000A51E56 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457681B255187F000A51E56 /* TableViewCell1.swift */; };
+		6457681E255187F000A51E56 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6457681C255187F000A51E56 /* TableViewCell1.xib */; };
+		6457682025519F6300A51E56 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457681F25519F6300A51E56 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A862722756DE8F3B3C46AC5 /* Pods-Wakeari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wakeari.release.xcconfig"; path = "Target Support Files/Pods-Wakeari/Pods-Wakeari.release.xcconfig"; sourceTree = "<group>"; };
 		6457680025504FF600A51E56 /* Wakeari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wakeari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6457680325504FF600A51E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6457680525504FF600A51E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		6457680C25504FF800A51E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6457680F25504FF800A51E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6457681125504FF800A51E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645768172550527C00A51E56 /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		64576819255155FA00A51E56 /* ResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultList.swift; sourceTree = "<group>"; };
+		6457681B255187F000A51E56 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		6457681C255187F000A51E56 /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		6457681F25519F6300A51E56 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		69E2211677451C79A0B9C898 /* Pods-Wakeari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wakeari.debug.xcconfig"; path = "Target Support Files/Pods-Wakeari/Pods-Wakeari.debug.xcconfig"; sourceTree = "<group>"; };
+		E03DB1A7A130FEEF32ACCCC5 /* Pods_Wakeari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wakeari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E66786F6C7A415A086E5146 /* Pods_Wakeari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2838C14D254AA3B02EB33246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03DB1A7A130FEEF32ACCCC5 /* Pods_Wakeari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		645767F725504FF600A51E56 = {
 			isa = PBXGroup;
 			children = (
 				6457680225504FF600A51E56 /* Wakeari */,
 				6457680125504FF600A51E56 /* Products */,
+				CFBC7A2555F973AF71F489CD /* Pods */,
+				2838C14D254AA3B02EB33246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,51 @@
 			children = (
 				6457680325504FF600A51E56 /* AppDelegate.swift */,
 				6457680525504FF600A51E56 /* SceneDelegate.swift */,
-				6457680725504FF600A51E56 /* ViewController.swift */,
+				6457686C255293A600A51E56 /* Model */,
+				6457686D255293B300A51E56 /* Controller */,
+				6457686B2552938700A51E56 /* Cell */,
 				6457680925504FF600A51E56 /* Main.storyboard */,
 				6457680C25504FF800A51E56 /* Assets.xcassets */,
 				6457680E25504FF800A51E56 /* LaunchScreen.storyboard */,
 				6457681125504FF800A51E56 /* Info.plist */,
 			);
 			path = Wakeari;
+			sourceTree = "<group>";
+		};
+		6457686B2552938700A51E56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6457681B255187F000A51E56 /* TableViewCell1.swift */,
+				6457681C255187F000A51E56 /* TableViewCell1.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6457686C255293A600A51E56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64576819255155FA00A51E56 /* ResultList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6457686D255293B300A51E56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6457680725504FF600A51E56 /* ViewController.swift */,
+				645768172550527C00A51E56 /* TableViewController1.swift */,
+				6457681F25519F6300A51E56 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFBC7A2555F973AF71F489CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69E2211677451C79A0B9C898 /* Pods-Wakeari.debug.xcconfig */,
+				3A862722756DE8F3B3C46AC5 /* Pods-Wakeari.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6457681425504FF800A51E56 /* Build configuration list for PBXNativeTarget "Wakeari" */;
 			buildPhases = (
+				DA630D186AA4DBBE16C36C58 /* [CP] Check Pods Manifest.lock */,
 				645767FC25504FF600A51E56 /* Sources */,
 				645767FD25504FF600A51E56 /* Frameworks */,
 				645767FE25504FF600A51E56 /* Resources */,
@@ -128,19 +192,49 @@
 				6457681025504FF800A51E56 /* LaunchScreen.storyboard in Resources */,
 				6457680D25504FF800A51E56 /* Assets.xcassets in Resources */,
 				6457680B25504FF600A51E56 /* Main.storyboard in Resources */,
+				6457681E255187F000A51E56 /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA630D186AA4DBBE16C36C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wakeari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		645767FC25504FF600A51E56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6457681A255155FA00A51E56 /* ResultList.swift in Sources */,
 				6457680825504FF600A51E56 /* ViewController.swift in Sources */,
 				6457680425504FF600A51E56 /* AppDelegate.swift in Sources */,
+				6457681D255187F000A51E56 /* TableViewCell1.swift in Sources */,
+				6457682025519F6300A51E56 /* WebViewController.swift in Sources */,
 				6457680625504FF600A51E56 /* SceneDelegate.swift in Sources */,
+				645768182550527C00A51E56 /* TableViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +376,7 @@
 		};
 		6457681525504FF800A51E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E2211677451C79A0B9C898 /* Pods-Wakeari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +389,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.tomokazu.takahashi.Wakeari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6457681625504FF800A51E56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A862722756DE8F3B3C46AC5 /* Pods-Wakeari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.tomokazu.takahashi.Wakeari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
