@@ -28,23 +28,31 @@ class TableViewCell1: UITableViewCell {
     func setData(_ itemData: items) {
     
         self.itemNameLabel.text = itemData.Item.itemName
-        //self.itemImaegView.image = UIImage(url: itemData.Item.mediumImageUrls)
         self.priceLabel.text = String("¥\(itemData.Item.itemPrice)")
         self.shopUrlButton.setTitle(itemData.Item.shopName, for: .normal)
-    
-    }
-}
-//String→UIImage
-extension UIImage {
-    public convenience init(url: String) {
-        let url = URL(string: url)
-        do {
-            let data = try Data(contentsOf: url!)
-            self.init(data: data)!
-            return
-        } catch let err {
-            print("Error : \(err.localizedDescription)")
+
+        let imageString = itemData.Item.mediumImageUrls.first!.imageUrl
+
+        if let url = URL(string: imageString){
+            let data = try! Data(contentsOf: url)
+            self.itemImaegView.image = UIImage(data: data)
+
+        }else{
+            print("nilが発生")
         }
-        self.init()
     }
 }
+////String→UIImage
+//extension UIImage {
+//    public convenience init(url: String) {
+//        let url = URL(string: url)
+//        do {
+//            let data = try Data(contentsOf: url!)
+//            self.init(data: data)!
+//            return
+//        } catch let err {
+//            print("Error : \(err.localizedDescription)")
+//        }
+//        self.init()
+//    }
+//}

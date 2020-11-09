@@ -29,11 +29,35 @@ class ViewController: SegementSlideDefaultViewController{
     }
     //タブの名前
     override var titlesInSwitcher: [String] {
-        return ["Amazon", "楽天市場", "ポンパレモール","アマゾン"]
+        return ["楽天市場", "楽天市場", "ポンパレモール","アマゾン"]
     }
     
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
-        return TableViewController1()
+        
+        switch index {
+        case 0:
+            return TableViewController1()
+        case 1:
+            return TableViewController2()
+//        case 2:
+//            return TableViewController3()
+//        case 3:
+//            return TableViewController4()
+//        case 4:
+//            return TableViewController5()
+//        case 5:
+//            return TableViewController6()
+//        case 6:
+//            return TableViewController7()
+//        case 7:
+//            return TableViewController8()
+//        case 8:
+//            return TableViewController9()
+//        case 9:
+//            return TableViewController10()
+        default:
+            return TableViewController1()
+        }
     }
     
     

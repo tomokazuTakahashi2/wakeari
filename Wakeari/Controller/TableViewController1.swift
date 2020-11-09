@@ -12,7 +12,6 @@ import SegementSlide
 class TableViewController1: UITableViewController, SegementSlideContentScrollViewDelegate {
     
     var itemArray = [items]()
-
     
     @objc var scrollView: UIScrollView {
         return tableView
@@ -40,7 +39,7 @@ class TableViewController1: UITableViewController, SegementSlideContentScrollVie
             if let data = data{
                 do{
                     let itemModel = try JSONDecoder().decode(ResultList.self, from: data)
-                    //print("json: ", resultList)
+                   // print("json: ", itemModel)
                     if let items:[items] = itemModel.Items {
                         for array in items {
                             self.itemArray.append(array)
@@ -59,11 +58,6 @@ class TableViewController1: UITableViewController, SegementSlideContentScrollVie
 
 
 // MARK: - Table view data source
-
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows

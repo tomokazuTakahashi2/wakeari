@@ -19,6 +19,8 @@
 		6457681D255187F000A51E56 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457681B255187F000A51E56 /* TableViewCell1.swift */; };
 		6457681E255187F000A51E56 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6457681C255187F000A51E56 /* TableViewCell1.xib */; };
 		6457682025519F6300A51E56 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457681F25519F6300A51E56 /* WebViewController.swift */; };
+		6457686F2553F2D600A51E56 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457686E2553F2D600A51E56 /* TableViewController2.swift */; };
+		6457687125542F1000A51E56 /* AmazonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457687025542F1000A51E56 /* AmazonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		6457681B255187F000A51E56 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
 		6457681C255187F000A51E56 /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
 		6457681F25519F6300A51E56 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		6457686E2553F2D600A51E56 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		6457687025542F1000A51E56 /* AmazonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonModel.swift; sourceTree = "<group>"; };
 		69E2211677451C79A0B9C898 /* Pods-Wakeari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wakeari.debug.xcconfig"; path = "Target Support Files/Pods-Wakeari/Pods-Wakeari.debug.xcconfig"; sourceTree = "<group>"; };
 		E03DB1A7A130FEEF32ACCCC5 /* Pods_Wakeari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wakeari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				64576819255155FA00A51E56 /* ResultList.swift */,
+				6457687025542F1000A51E56 /* AmazonModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			children = (
 				6457680725504FF600A51E56 /* ViewController.swift */,
 				645768172550527C00A51E56 /* TableViewController1.swift */,
+				6457686E2553F2D600A51E56 /* TableViewController2.swift */,
 				6457681F25519F6300A51E56 /* WebViewController.swift */,
 			);
 			path = Controller;
@@ -230,10 +236,12 @@
 			files = (
 				6457681A255155FA00A51E56 /* ResultList.swift in Sources */,
 				6457680825504FF600A51E56 /* ViewController.swift in Sources */,
+				6457687125542F1000A51E56 /* AmazonModel.swift in Sources */,
 				6457680425504FF600A51E56 /* AppDelegate.swift in Sources */,
 				6457681D255187F000A51E56 /* TableViewCell1.swift in Sources */,
 				6457682025519F6300A51E56 /* WebViewController.swift in Sources */,
 				6457680625504FF600A51E56 /* SceneDelegate.swift in Sources */,
+				6457686F2553F2D600A51E56 /* TableViewController2.swift in Sources */,
 				645768182550527C00A51E56 /* TableViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

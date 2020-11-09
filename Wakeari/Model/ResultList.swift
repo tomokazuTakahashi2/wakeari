@@ -20,14 +20,12 @@ struct items :Codable{
 struct item: Codable {
     
     let mediumImageUrls:[Image]
-    let itemCaption :String
     let itemName:String
     let itemPrice: Int
     let shopName:String
     let shopUrl:String
-}
 
 struct Image: Codable {
     let imageUrl: String
 }
-
+}
