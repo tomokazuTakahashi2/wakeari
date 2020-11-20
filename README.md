@@ -9,4 +9,5 @@
 * Codable/URLSession
 
 ## イメージ
-![wakeariImage](https://user-images.githubusercontent.com/52473279/98493957-185ef780-227f-11eb-9038-530eac52689e.png)
+<img src="https://user-images.githubusercontent.com/52473279/98493957-185ef780-227f-11eb-9038-530eac52689e.png" width="400px">
+
